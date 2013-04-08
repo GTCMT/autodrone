@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 303.0, 91.0, 1397.0, 999.0 ],
+		"rect" : [ 303.0, 91.0, 1207.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 559.0, 700.0, 56.0, 20.0 ],
+					"text" : "r bypass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -39,8 +54,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 782.0, 480.0 ],
@@ -725,8 +741,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 213.0, 127.0, 521.0, 299.0 ],
@@ -853,8 +870,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 40.0, 55.0, 400.0, 326.0 ],
@@ -1084,12 +1102,12 @@
 									"patching_rect" : [ 17.0, 24.0, 39.0, 21.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "number",
+											"parameter_longname" : "number[1]",
 											"parameter_initial" : [ 1 ],
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "number",
-											"parameter_longname" : "number[1]"
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -1390,12 +1408,12 @@
 					"presentation_rect" : [ 1048.0, 125.0, 18.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "slider[3]",
+							"parameter_longname" : "slider[4]",
 							"parameter_initial" : [ 120 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "slider[3]",
-							"parameter_longname" : "slider[4]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -1419,12 +1437,12 @@
 					"presentation_rect" : [ 962.0, 125.0, 18.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "slider[2]",
+							"parameter_longname" : "slider[5]",
 							"parameter_initial" : [ 145 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "slider[2]",
-							"parameter_longname" : "slider[5]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -1448,12 +1466,12 @@
 					"presentation_rect" : [ 881.0, 125.0, 18.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "slider[1]",
+							"parameter_longname" : "slider[6]",
 							"parameter_initial" : [ 99 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "slider[1]",
-							"parameter_longname" : "slider[6]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -1477,12 +1495,12 @@
 					"presentation_rect" : [ 761.0, 125.0, 18.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "slider",
+							"parameter_longname" : "slider[7]",
 							"parameter_initial" : [ 50 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "slider",
-							"parameter_longname" : "slider[7]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -1739,8 +1757,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 538.0, 1292.0, 838.0, 488.0 ],
@@ -2346,8 +2365,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 849.0, 65.0, 897.0, 937.0 ],
@@ -3813,8 +3833,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -4101,8 +4122,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 573.0, 363.0, 1237.0, 701.0 ],
@@ -4388,8 +4410,8 @@
 									"id" : "obj-16",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "OSCTimeTag" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 37.0, 508.0, 113.0, 20.0 ],
 									"text" : "OpenSoundControl"
 								}
@@ -4567,8 +4589,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 682.0, 349.0, 731.0, 692.0 ],
@@ -5575,8 +5598,8 @@
 									"id" : "obj-26",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "OSCTimeTag" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 407.0, 63.5, 113.0, 20.0 ],
 									"text" : "OpenSoundControl"
 								}
@@ -6193,8 +6216,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 200.0, 492.0, 1348.0, 965.0 ],
@@ -8138,8 +8162,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 938.0, 461.0, 721.0, 644.0 ],
@@ -8419,8 +8444,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1297.0, 92.0, 553.0, 628.0 ],
@@ -9524,8 +9550,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 519.0, 271.0, 691.0, 666.0 ],
@@ -9805,8 +9832,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1297.0, 92.0, 554.0, 729.0 ],
@@ -10910,8 +10938,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 547.0, 295.0, 759.0, 719.0 ],
@@ -11191,8 +11220,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1297.0, 92.0, 553.0, 628.0 ],
@@ -12330,8 +12360,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 442.0, 259.0, 682.0, 686.0 ],
@@ -12611,8 +12642,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1297.0, 92.0, 553.0, 628.0 ],
@@ -13716,8 +13748,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 864.0, 364.0, 717.0, 671.0 ],
@@ -13997,8 +14030,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1212.0, 402.0, 657.0, 714.0 ],
@@ -15181,22 +15215,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-179",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 393.25, 806.0, 33.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 511.25, 250.0, 33.0, 18.0 ],
-					"text" : "plug"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-177",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -15362,8 +15380,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1046.0, 300.0, 854.0, 851.0 ],
@@ -15386,6 +15405,50 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 692.0, 346.0, 58.0, 20.0 ],
+									"text" : "s bypass"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-20",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 549.75, 303.0, 59.0, 18.0 ],
+									"text" : "bypass 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-179",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 350.0, 405.0, 384.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 16,
+									"presentation_rect" : [ 526.25, 265.0, 35.0, 219.0 ],
+									"text" : "plug /Library/Audio/Plug-Ins/Components/ValhallaShimmer.component"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -15948,6 +16011,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-179", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -16155,6 +16236,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-179", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -16177,6 +16276,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
 								}
 
 							}
@@ -16596,15 +16704,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-177", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-177", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-179", 0 ]
 				}
 
 			}
@@ -17233,6 +17332,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-182", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-95", 0 ],
 					"disabled" : 0,
@@ -17292,8 +17400,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "drywet.maxpat",
-				"bootpath" : "/Users/sdm/Documents/MSMT/ListeningMachines/autodrone",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/georgiatech/Documents/LM 2013/Drone/autodrone",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -17303,10 +17411,6 @@
 			}
 , 			{
 				"name" : "pitch~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "OpenSoundControl.mxo",
 				"type" : "iLaX"
 			}
  ]
